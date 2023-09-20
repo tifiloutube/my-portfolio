@@ -3,10 +3,10 @@
     <div class="logo always-on-top">
       <a href="/">
         <svg height="35" width="68">
-          <text x="8.5" y="25" font-family="Verdana" font-size="24" fill="#212121">P</text>
-          <text x="20" y="25" font-family="Verdana" font-size="24" fill="#212121">V</text>
-          <text x="36" y="10" font-family="Verdana" font-size="8" fill="#212121">portfolio</text>
-          <line x1="18.5" y1="10" x2="26.5" y2="25" style="stroke:#212121;stroke-width:0.3" />
+          <text x="8.5" y="25" font-family="Verdana" font-size="24" fill="#F4EDDE">P</text>
+          <text x="20" y="25" font-family="Verdana" font-size="24" fill="#F4EDDE">V</text>
+          <text x="36" y="10" font-family="Verdana" font-size="8" fill="#F4EDDE">portfolio</text>
+          <line x1="18.5" y1="10" x2="26.5" y2="25" style="stroke:#F4EDDE;stroke-width:0.3" />
         </svg>
       </a>
     </div>
@@ -109,7 +109,8 @@
         cursor: pointer;
         .anim-hover__title {
           transition: color 1s ease;
-          opacity: 0;
+          opacity: 1;
+          width: 100%;
         }
         .anim-hover__line {
           position: absolute;
@@ -117,19 +118,21 @@
           left: 0;
           width: 0;
           height: 20px;
-          background: #ccc;
-          transition: width 1s ease;
+          background: #F4EDDE;
+          transition: width 1s ease, background-color 1s ease;
         }
         &:hover {
           .anim-hover__title {
-            color: #ccc;
+            //color: #ccc;
+            //color: #BFC0C0;
+          }
+          .anim-hover__line {
+            width: 100%; // Cela étend la largeur de la ligne à 100% de son conteneur
+            background-color: #ffffff; // Mettez la couleur que vous souhaitez
           }
         }
       }
     }
-  }
-  .no-transition {
-    transition: none !important;
   }
 }
 </style>

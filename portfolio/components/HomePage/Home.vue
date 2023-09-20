@@ -10,7 +10,7 @@ export default {
       ease: 'power3.out'
     })
 
-    gsap.from('.line', {
+    gsap.from('.lineHome', {
       duration: 3,
       scaleX: 0,
       transformOrigin: 'left',
@@ -26,7 +26,7 @@ export default {
       <div class="container">
         <h1 class="h1 title">
           Vilarinho
-          <span class="line"></span>
+          <span class="lineHome"></span>
           Philippe
         </h1>
       </div>
@@ -45,10 +45,9 @@ export default {
       align-items: center;
       gap: 50px;
     }
-    .line {
+    .lineHome {
       display: inline-block;
       width: calc(100vw - 1242px);
-      border-bottom: 20px solid #212121;
     }
   }
 </style>

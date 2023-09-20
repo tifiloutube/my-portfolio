@@ -20,7 +20,7 @@ onMounted(() => {
 
 
   words.forEach((word, wordIndex) => {
-    const wordDelay = wordIndex * 1000; // 1 seconde entre chaque mot
+    const wordDelay = wordIndex * 500; // 1 seconde entre chaque mot
     const spans = document.querySelectorAll(`.word-${wordIndex} span`);
     let lastCharDuration = 0;
 
@@ -29,7 +29,7 @@ onMounted(() => {
         span.textContent = getRandomChar();
       }, 100);
 
-      const charDuration = 1000 + (spanIndex * 200); // 1s + 0.2s par lettre
+      const charDuration = 500 + (spanIndex * 200); // 1s + 0.2s par lettre
 
       // On prend la durée du dernier caractère pour chaque mot
       lastCharDuration = charDuration;
@@ -44,7 +44,7 @@ onMounted(() => {
   // Fait apparaître le bouton après que toutes les animations soient terminées
   setTimeout(() => {
     state.buttonClass = 'visible';
-  }, 7500); // +1 seconde pour un petit délai
+  }, 4000); // +1 seconde pour un petit délai
 });
 </script>
 

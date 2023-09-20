@@ -8,8 +8,10 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #F4EDDE;
-    color: #212121;
+    /*background-color: #F4EDDE;*/
+    background-color: #212121;
+    /*color: #212121;*/
+    color: #F4EDDE;
     font-feature-settings: 'ss02' on;
     font-family: Spline Sans, sans-serif;
     font-size: 16px;
@@ -20,7 +22,8 @@ body {
 }
 
 button {
-    color: #212121;
+    /*color: #212121;*/
+    color: #F4EDDE;
     font-feature-settings: 'ss02' on;
     font-family: Spline Sans, sans-serif;
     font-size: 16px;
@@ -31,7 +34,8 @@ button {
 }
 
 .h1 {
-    color: #212121;
+    /*color: #212121;*/
+    color: #F4EDDE;
     font-family: Bebas Neue, sans-serif;
     font-size: 196px;
     font-style: normal;
@@ -42,7 +46,8 @@ button {
 }
 
 .h2 {
-    color: #212121;
+    /*color: #212121;*/
+    color: #F4EDDE;
     font-family: Bebas Neue, sans-serif;
     font-size: 128px;
     font-style: normal;
@@ -54,7 +59,8 @@ button {
 }
 
 .text {
-    color: #212121;
+    /*color: #212121;*/
+    color: #F4EDDE;
     font-feature-settings: 'ss02' on;
     font-family: Spline Sans, sans-serif;
     font-size: 40px;
@@ -62,6 +68,10 @@ button {
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: -0.8px;
+}
+
+.lineHome {
+    border-bottom: 20px solid #F4EDDE;
 }
 
 a {
