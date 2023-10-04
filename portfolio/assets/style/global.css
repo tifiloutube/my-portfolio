@@ -43,6 +43,7 @@ button {
     line-height: 1;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+    margin: 0;
 }
 
 .h2 {
