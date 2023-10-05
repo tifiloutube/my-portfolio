@@ -59,18 +59,6 @@ button {
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .h2 {
-        font-size: 100px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .h2 {
-        font-size: 30px;
-    }
-}
-
 .text {
     /*color: #212121;*/
     color: #F4EDDE;
@@ -95,4 +83,27 @@ a {
 a:hover, a:focus {
     text-decoration: none;
     color: inherit;
+}
+
+/* Responsive Tablette */
+
+@media screen and (max-width: 1024px) {
+    .h1 {
+        font-size: 120px;
+    }
+
+    .h2 {
+        font-size: 80px;
+    }
+}
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 600px) {
+    .h1 {
+        font-size: 150px;
+    }
+    .h2 {
+        font-size: 60px;
+    }
 }

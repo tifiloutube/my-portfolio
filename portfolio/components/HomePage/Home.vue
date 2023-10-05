@@ -25,7 +25,7 @@ export default {
     <section class="wrapper">
       <div class="container">
         <h1 class="h1 title">
-          Vilarinho
+          Vilarinho<span class="mobile-break"></span>
           <span class="lineHome"></span>
           Philippe
         </h1>
@@ -40,7 +40,7 @@ export default {
     padding-top: 40px;
     height: calc(100vh - 385px);
     .title {
-      //margin-top: 0;
+      width: 100%;
       display: flex;
       align-items: center;
       gap: 50px;
@@ -48,6 +48,28 @@ export default {
     .lineHome {
       display: inline-block;
       width: calc(100vw - 1242px);
+    }
+    .mobile-break {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .lineHome {
+      min-width: calc(100vw - 820px);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .title {
+      display: block !important;
+    }
+    .mobile-break {
+      display: block !important;
+      width: 100%;
+    }
+    .lineHome {
+      display: none !important;
     }
   }
 </style>

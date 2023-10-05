@@ -118,4 +118,23 @@ export default {
     }
   }
 
+  @media screen and (max-width: 600px) {
+    .footer {
+      justify-content: center;
+    }
+    .left-block {
+      min-width: 300px;
+    }
+    .right-block {
+      padding: 0;
+      .right-block__list {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 50px;
+      }
+    }
+  }
+
 </style>

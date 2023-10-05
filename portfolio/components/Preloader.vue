@@ -114,7 +114,7 @@ onMounted(() => {
 @media screen and (max-width: 600px) {
   .preloader-worlds {
     display: flex;
-    gap: 20px !important;
+    gap: 10px !important;
   }
   .loaderButton {
     font-size: 20px !important;
