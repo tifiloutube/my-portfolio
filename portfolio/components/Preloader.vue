@@ -103,4 +103,20 @@ onMounted(() => {
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
   }
+
+@media screen and (max-width: 1024px) {
+  .preloader-worlds {
+    display: flex;
+    gap: 40px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .preloader-worlds {
+    display: flex;
+    gap: 20px !important;
+  }
+}
+
+
 </style>

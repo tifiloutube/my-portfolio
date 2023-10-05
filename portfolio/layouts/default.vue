@@ -11,7 +11,6 @@ const route = useRoute();
     </template>
     <NuxtPage />
     <template v-if="route.path !== '/home'">
-      <Footer />
     </template>
   </div>
 </template>
