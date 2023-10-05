@@ -116,6 +116,9 @@ onMounted(() => {
     display: flex;
     gap: 20px !important;
   }
+  .loaderButton {
+    font-size: 20px !important;
+  }
 }
 
 
