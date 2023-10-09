@@ -68,9 +68,14 @@ onMounted(() => {
     </p>
     <article class="container">
       <div class="project">
-        <h1 class="h1 project-title">
-          Happy Birthday Mailer
-        </h1>
+        <div class="container-title">
+          <h1 class="h1 project-title">
+            Happy Birthday Mailer
+          </h1>
+          <NuxtLink class="project-git private">
+          See Project
+          </NuxtLink>
+        </div>
         <div class="project-description">
           <p>
             MicroService allowing the sending of automated emails every day to customers registered on an e-commerce site whose birthday it is with a promotional code.
@@ -108,9 +113,14 @@ onMounted(() => {
         </div>
       </div>
       <div class="project">
-        <h1 class="h1 project-title">
-          Waiting List
-        </h1>
+        <div class="container-title">
+          <h1 class="h1 project-title">
+            Waiting List
+          </h1>
+          <NuxtLink class="project-git private">
+            See Project
+          </NuxtLink>
+        </div>
         <div class="project-description">
           <p>
             Microservice allowing users to add themselves to a waiting list if the product is no longer in stock on the site.
@@ -149,9 +159,14 @@ onMounted(() => {
         </div>
       </div>
       <div class="project">
-        <h1 class="h1 project-title">
-          Mailjet Add List
-        </h1>
+        <div class="container-title">
+          <h1 class="h1 project-title">
+            Mailjet Add List
+          </h1>
+          <NuxtLink class="project-git private">
+            See Project
+          </NuxtLink>
+        </div>
         <div class="project-description">
           <p>
             Microservice allowing users to add themselves to a newsletter managed via mailjet from the site.
@@ -190,9 +205,14 @@ onMounted(() => {
         </div>
       </div>
       <div class="project">
-        <h1 class="h1 project-title">
-          Arty Agency
-        </h1>
+        <div class="container-title">
+          <h1 class="h1 project-title">
+            Arty Agency
+          </h1>
+          <NuxtLink to="https://github.com/MrBartou/Arti-Agency" class="project-git" target="_blank">
+            See Project
+          </NuxtLink>
+        </div>
         <div class="project-description">
           <p>
             School project where we developed a showcase site for a creative web agency with a dashboard that allows you to manage projects and tasks on the project.
@@ -228,9 +248,14 @@ onMounted(() => {
         </div>
       </div>
       <div class="project">
-        <h1 class="h1 project-title">
-          API Netwish
-        </h1>
+        <div class="container-title">
+          <h1 class="h1 project-title">
+            API Netwish
+          </h1>
+          <NuxtLink to="https://github.com/MrBartou/api_netwish" class="project-git" target="_blank">
+            See Project
+          </NuxtLink>
+        </div>
         <div class="project-description">
           <p>
             School project where we developed an API allowing you to retrieve all available films/series with the synopsis and rating
@@ -263,9 +288,14 @@ onMounted(() => {
         </div>
       </div>
       <div class="project">
-        <h1 class="h1 project-title">
-          Foodie Roulette
-        </h1>
+        <div class="container-title">
+          <h1 class="h1 project-title">
+            Foodie Roulette
+          </h1>
+          <NuxtLink to="https://github.com/tifiloutube/foodie-roulette" class="project-git" target="_blank">
+            See Project
+          </NuxtLink>
+        </div>
         <div class="project-description">
           <p>
             School project where we developed an Android application which allows users, depending on their location, to know where to eat by retrieving all the restaurants in the surrounding area over a distance selected by the user and which suggests a place to eat according to all the restaurants in the area.
@@ -313,6 +343,16 @@ onMounted(() => {
   .project {
     border-top: 1px #F4EDDE solid;
     background-color: #212121;
+    .container-title {
+      display: flex;
+      justify-content: space-between;
+      .project-git {
+        margin-top: 10px;
+      }
+      .private {
+        text-decoration-line: line-through;
+      }
+    }
     .project-title {
 
     }
