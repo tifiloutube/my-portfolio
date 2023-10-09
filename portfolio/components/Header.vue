@@ -109,7 +109,7 @@
         cursor: pointer;
         .anim-hover__title {
           transition: color 1s ease;
-          opacity: 1;
+          opacity: 0;
           width: 100%;
         }
         .anim-hover__line {
@@ -122,13 +122,9 @@
           transition: width 1s ease, background-color 1s ease;
         }
         &:hover {
-          .anim-hover__title {
-            //color: #ccc;
-            //color: #BFC0C0;
-          }
           .anim-hover__line {
-            width: 100%; // Cela étend la largeur de la ligne à 100% de son conteneur
-            background-color: #ffffff; // Mettez la couleur que vous souhaitez
+            width: 100%;
+            background-color: #ffffff;
           }
         }
       }
