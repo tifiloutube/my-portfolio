@@ -114,7 +114,8 @@ export default {
 
   @media screen and (max-width: 600px) {
     .footer {
-      display: block;
+      display: grid;
+      gap: 50px;
     }
     .left-block {
       min-width: 300px;
