@@ -34,25 +34,27 @@ onMounted(() => {
     projects = Array.from(document.querySelectorAll('.project'));
     updateProjects();
 
-    for (let i = 0; i < projects.length; i++) {
-      const project = projects[i];
-      const nextProject = projects[i + 1];
-      const h1Element = project.querySelector('.project-title');
+    if (window.innerWidth >= 1024) {  // Ajout de cette condition
+      for (let i = 0; i < projects.length; i++) {
+        const project = projects[i];
+        const nextProject = projects[i + 1];
+        const h1Element = project.querySelector('.project-title');
 
-      if (project.classList.contains('stuck') && nextProject) {
-        const projectRect = project.getBoundingClientRect();
-        const nextProjectRect = nextProject.getBoundingClientRect();
+        if (project.classList.contains('stuck') && nextProject) {
+          const projectRect = project.getBoundingClientRect();
+          const nextProjectRect = nextProject.getBoundingClientRect();
 
-        const overlap = (projectRect.bottom - 80) - nextProjectRect.top;
+          const overlap = (projectRect.bottom - 80) - nextProjectRect.top;
 
-        if (overlap > 0) {
-          const scale = Math.max(50, 196 - (146 * (overlap / nextProjectRect.height)));
-          h1Element.style.fontSize = `${scale}px`;
+          if (overlap > 0) {
+            const scale = Math.max(50, 196 - (146 * (overlap / nextProjectRect.height)));
+            h1Element.style.fontSize = `${scale}px`;
+          } else {
+            h1Element.style.fontSize = '196px';
+          }
         } else {
           h1Element.style.fontSize = '196px';
         }
-      } else {
-        h1Element.style.fontSize = '196px';
       }
     }
   });
