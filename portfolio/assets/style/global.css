@@ -95,6 +95,9 @@ a:hover, a:focus {
     .h2 {
         font-size: 80px;
     }
+    .text {
+        font-size: 30px;
+    }
 }
 
 /* Responsive Mobile */

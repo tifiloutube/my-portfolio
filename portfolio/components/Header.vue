@@ -131,6 +131,21 @@
     }
   }
 }
+
+@media (max-width: 1023px) {
+  .fullscreen-menu {
+    .fullscreen-menu__list {
+      li.anim-hover {
+        &:hover {
+          .anim-hover__line {
+            width: 0;  // réinitialiser la largeur à sa valeur par défaut
+            background-color: #F4EDDE;  // réinitialiser la couleur d'arrière-plan à sa valeur par défaut
+          }
+        }
+      }
+    }
+  }
+}
 </style>
 
 

@@ -113,12 +113,6 @@ onMounted(() => {
 /* Responsive Tablette */
 
 @media screen and (max-width: 1024px) {
-
-}
-
-/* Responsive Mobile */
-
-@media screen and (max-width: 600px) {
   .description {
     flex-direction: column;
     gap: 0 !important;
@@ -126,5 +120,11 @@ onMounted(() => {
       padding: 0;
     }
   }
+}
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 600px) {
+
 }
 </style>
