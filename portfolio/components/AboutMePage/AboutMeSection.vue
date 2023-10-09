@@ -109,4 +109,23 @@ onMounted(() => {
     }
   }
 }
+
+
+/* Responsive Tablette */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 600px) {
+  .description {
+    flex-direction: column;
+    gap: 50px !important;
+    .listInterest {
+      padding: 0;
+    }
+  }
+}
 </style>

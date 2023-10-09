@@ -109,4 +109,7 @@ a:hover, a:focus {
     .h2 {
         font-size: 40px;
     }
+    .text {
+        font-size: 10px;
+    }
 }

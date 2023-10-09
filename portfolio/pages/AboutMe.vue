@@ -5,6 +5,7 @@ import AboutMeSection from "~/components/AboutMePage/AboutMeSection.vue";
 
 <template>
   <AboutMeSection />
+  <Footer />
 </template>
 
 <style scoped>
