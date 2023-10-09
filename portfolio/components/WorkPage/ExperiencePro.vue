@@ -391,4 +391,10 @@ ul {
   position: sticky;
   top:0;
 }
+
+@media screen and (max-width: 600px) {
+  .project {
+    height: 35vh;
+  }
+}
 </style>
