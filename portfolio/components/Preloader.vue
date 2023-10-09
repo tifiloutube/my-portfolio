@@ -27,9 +27,9 @@ onMounted(() => {
     spans.forEach((span, spanIndex) => {
       const charInterval = setInterval(() => {
         span.textContent = getRandomChar();
-      }, 150);
+      }, 100);
 
-      const charDuration = 50 + (spanIndex * 100); // 1s + 0.2s par lettre
+      const charDuration = 500 + (spanIndex * 200); // 1s + 0.2s par lettre
 
       // On prend la durée du dernier caractère pour chaque mot
       lastCharDuration = charDuration;
