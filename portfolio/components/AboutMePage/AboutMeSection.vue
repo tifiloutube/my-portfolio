@@ -44,8 +44,7 @@ onMounted(() => {
       <div class="description">
         <section>
           <p>Frontend Developer</p>
-          <p class="text letToRightAnim">Combining aesthetics and usefulness, I create solid user interfaces in an artistic way. I love to spend time improving the aesthetics of digital products without forgetting about usability. <br>
-            I am is a user interface designer working with agencies and startups worldwide to tackle complex projects. Having collaborated with clients, Olacodes knows what it’s like to create, design and develop complex user interfaces.</p>
+          <p class="text letToRightAnim">Blending creativity with functionality, I craft robust web interfaces with a splash of artistry. My passion lies in elevating the aesthetic appeal of digital platforms, while maintaining a strong focus on usability. Currently honing my skills at Ynov Toulouse in web development, I thrive on the frontier of creative front-end development. My educational journey has been an arena to experiment, learn, and collaborate, fueling my enthusiasm to take on intricate web projects. With every line of code, I strive to push the envelope, aspiring to collaborate with innovative teams and clients to bring unique digital experiences to life.</p>
         </section>
         <article>
           <ul class="listInterest">
@@ -122,7 +121,7 @@ onMounted(() => {
 @media screen and (max-width: 600px) {
   .description {
     flex-direction: column;
-    gap: 50px !important;
+    gap: 0 !important;
     .listInterest {
       padding: 0;
     }

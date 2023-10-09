@@ -80,9 +80,9 @@ onMounted(() => {
           <div>
             <h2>
               W /
-              <a href="https://thisispam.com/" class="">
+              <NuxtLink to="https://thisispam.com/" class="" target="_blank">
                 PAM
-              </a>
+              </NuxtLink>
             </h2>
           </div>
           <div>
@@ -120,9 +120,9 @@ onMounted(() => {
           <div>
             <h2>
               W /
-              <a href="https://thisispam.com/" class="">
+              <NuxtLink to="https://thisispam.com/" class="" target="_blank">
                 PAM
-              </a>
+              </NuxtLink>
             </h2>
           </div>
           <div>
@@ -161,9 +161,9 @@ onMounted(() => {
           <div>
             <h2>
               W /
-              <a href="https://thisispam.com/" class="">
+              <NuxtLink to="https://thisispam.com/" class="" target="_blank">
                 PAM
-              </a>
+              </NuxtLink>
             </h2>
           </div>
           <div>
@@ -202,9 +202,9 @@ onMounted(() => {
           <div>
             <h2>
               W /
-              <a href="https://www.ynov.com/campus/toulouse/" class="">
+              <NuxtLink to="https://www.ynov.com/campus/toulouse/" class="" target="_blank">
                 YNOV
-              </a>
+              </NuxtLink>
             </h2>
           </div>
           <div>
@@ -240,9 +240,9 @@ onMounted(() => {
           <div>
             <h2>
               W /
-              <a href="https://www.ynov.com/campus/toulouse/" class="">
+              <NuxtLink to="https://www.ynov.com/campus/toulouse/" class="" target="_blank">
                 YNOV
-              </a>
+              </NuxtLink>
             </h2>
           </div>
           <div>
@@ -275,9 +275,9 @@ onMounted(() => {
           <div>
             <h2>
               W /
-              <a href="https://www.ynov.com/campus/toulouse/" class="">
+              <NuxtLink to="https://www.ynov.com/campus/toulouse/" class="" target="_blank">
                 YNOV
-              </a>
+              </NuxtLink>
             </h2>
           </div>
           <div>

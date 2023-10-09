@@ -35,9 +35,10 @@ export default {
         <p>info</p>
       </div>
       <div>
-        Combining aesthetics and usefulness, I create solid user interfaces in an artistic way. I love to spend time improving the aesthetics of digital products without forgetting about usability.
+        Currently pursuing my web development studies at Ynov Toulouse, I am eagerly seeking a web development apprenticeship to further meld creativity with technical prowess in real-world projects.
       </div>
       <button class="custom-button" type="button">
+        <NuxtLink to="/aboutme">
         explore
         <span>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -45,19 +46,20 @@ export default {
             <path d="M2.9165 10L16.9415 10" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </span>
+        </NuxtLink>
       </button>
     </div>
     <div class="right-block">
       <ul class="right-block__list">
         <li>
-          <a href="https://www.linkedin.com/in/philippe-vilarinho-893a07161/" target="blank" class="link">
+          <NuxtLink to="https://github.com/tifiloutube" target="_blank">
             Github
-          </a>
+          </NuxtLink>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/philippe-vilarinho-893a07161/" target="blank" class="link">
+          <NuxtLink href="https://www.linkedin.com/in/philippe-vilarinho-893a07161/" target="blank" class="link">
             LinkedIn
-          </a>
+          </NuxtLink>
         </li>
       </ul>
     </div>

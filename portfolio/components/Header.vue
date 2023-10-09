@@ -1,20 +1,20 @@
 <template>
   <header class="wrapper header">
     <div class="logo always-on-top">
-      <a href="/">
+      <NuxtLink to="/home">
         <svg height="35" width="68">
           <text x="8.5" y="25" font-family="Verdana" font-size="24" fill="#F4EDDE">P</text>
           <text x="20" y="25" font-family="Verdana" font-size="24" fill="#F4EDDE">V</text>
           <text x="36" y="10" font-family="Verdana" font-size="8" fill="#F4EDDE">portfolio</text>
           <line x1="18.5" y1="10" x2="26.5" y2="25" style="stroke:#F4EDDE;stroke-width:0.3" />
         </svg>
-      </a>
+      </NuxtLink>
     </div>
     <div class="location always-on-top">
-      <a href="https://earth.google.com/web/search/Toulouse/@43.59846655,1.46184695,168.36616161a,15081.47477419d,35y,50.81947276h,60t,0r/data=CigiJgokCSQGAkfr1TJAEQSri_ugxzLAGT4WeSz0wkhAIWhUdnsk-0jAKAI?hl=fr" target="_blank">
+      <NuxtLink to="https://earth.google.com/web/search/Toulouse/@43.59846655,1.46184695,168.36616161a,15081.47477419d,35y,50.81947276h,60t,0r/data=CigiJgokCSQGAkfr1TJAEQSri_ugxzLAGT4WeSz0wkhAIWhUdnsk-0jAKAI?hl=fr" target="_blank">
         currently living in <br>
         Toulouse, France
-      </a>
+      </NuxtLink>
     </div>
     <div id="menu-icon" class="menu-icon always-on-top" @click="toggleMenu">
       <div>

@@ -110,6 +110,7 @@ a:hover, a:focus {
         font-size: 40px;
     }
     .text {
+        margin: 0;
         font-size: 16px;
     }
 }
