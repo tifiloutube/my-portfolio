@@ -62,7 +62,7 @@ export default {
 
   @media screen and (max-width: 600px) {
     .container {
-      height: calc(100vh - 400px) !important;
+      
     }
     .title {
       font-size: 100px !important;
