@@ -29,7 +29,7 @@ onMounted(() => {
         span.textContent = getRandomChar();
       }, 150);
 
-      const charDuration = 500 + (spanIndex * 100); // 1s + 0.2s par lettre
+      const charDuration = 300 + (spanIndex * 100); // 1s + 0.2s par lettre
 
       // On prend la durée du dernier caractère pour chaque mot
       lastCharDuration = charDuration;
