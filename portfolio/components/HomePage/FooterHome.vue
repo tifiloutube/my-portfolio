@@ -75,7 +75,7 @@ export default {
 
   .left-block {
     width: 25%;
-    min-width: 354px;
+    min-width: 405px;
     padding: 16px;
     display: flex;
     flex-direction: column;

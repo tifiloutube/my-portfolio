@@ -47,13 +47,13 @@ onMounted(() => {
           const overlap = (projectRect.bottom - 80) - nextProjectRect.top;
 
           if (overlap > 0) {
-            const scale = Math.max(50, 196 - (146 * (overlap / nextProjectRect.height)));
+            const scale = Math.max(50, 128 - (100 * (overlap / nextProjectRect.height)));
             h1Element.style.fontSize = `${scale}px`;
           } else {
-            h1Element.style.fontSize = '196px';
+            h1Element.style.fontSize = '128px';
           }
         } else {
-          h1Element.style.fontSize = '196px';
+          h1Element.style.fontSize = '128px';
         }
       }
     }
@@ -69,7 +69,7 @@ onMounted(() => {
     <article class="container">
       <div class="project">
         <div class="container-title">
-          <h1 class="h1 project-title">
+          <h1 class="h2 project-title">
             Happy Birthday Mailer
           </h1>
           <NuxtLink class="project-git private">
@@ -114,7 +114,7 @@ onMounted(() => {
       </div>
       <div class="project">
         <div class="container-title">
-          <h1 class="h1 project-title">
+          <h1 class="h2 project-title">
             Waiting List
           </h1>
           <NuxtLink class="project-git private">
@@ -160,7 +160,7 @@ onMounted(() => {
       </div>
       <div class="project">
         <div class="container-title">
-          <h1 class="h1 project-title">
+          <h1 class="h2 project-title">
             Mailjet Add List
           </h1>
           <NuxtLink class="project-git private">
@@ -206,7 +206,7 @@ onMounted(() => {
       </div>
       <div class="project">
         <div class="container-title">
-          <h1 class="h1 project-title">
+          <h1 class="h2 project-title">
             Arty Agency
           </h1>
           <NuxtLink to="https://github.com/MrBartou/Arti-Agency" class="project-git" target="_blank">
@@ -249,7 +249,7 @@ onMounted(() => {
       </div>
       <div class="project">
         <div class="container-title">
-          <h1 class="h1 project-title">
+          <h1 class="h2 project-title">
             API Netwish
           </h1>
           <NuxtLink to="https://github.com/MrBartou/api_netwish" class="project-git" target="_blank">
@@ -289,7 +289,7 @@ onMounted(() => {
       </div>
       <div class="project">
         <div class="container-title">
-          <h1 class="h1 project-title">
+          <h1 class="h2 project-title">
             Foodie Roulette
           </h1>
           <NuxtLink to="https://github.com/tifiloutube/foodie-roulette" class="project-git" target="_blank">
@@ -328,7 +328,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="project noMoreProject">
-        <h1 class="h1 noMoreProject-title">No more projects available at the moment, do not hesitate to come back later.</h1>
+        <h2 class="h2 noMoreProject-title">No more projects available at the moment, do not hesitate to come back later.</h2>
       </div>
     </article>
   </section>
