@@ -47,7 +47,7 @@ onMounted(() => {
           <p class="text letToRightAnim">
             Hey everyone! <span class="emoji">👋</span> It's-a me, Mari... Uh no, wrong line. Hmm Hmm I am VILARINHO Philippe, a web developer with a passion for creative web development. Currently a student at Ynov Toulouse Campus, I am in search of an apprenticeship to enrich my master's journey. The endless possibilities of the web inspire me to push the boundaries and bring a creative touch to every project I work on.
             I am among those who believe that good energy and a relaxed atmosphere are essential for successful collaboration and continuous learning. I am always ready to learn, experiment, and share ideas with like-minded individuals.
-            Thank you so much for reading! If you are curious to see what I have concocted so far, don't hesitate to click right here to browse through my projects. Looking forward to connecting and creating together!
+            Thank you so much for reading! If you are curious to see what I have concocted so far, don't hesitate to click <span class="leftHand">👉</span><NuxtLink to="/work"> right here </NuxtLink><span class="rightHand">👈</span> to browse through my projects. Looking forward to connecting and creating together!
           </p>
         </section>
         <article>
@@ -123,6 +123,29 @@ onMounted(() => {
   display: inline-block;
   animation: waveAnimation 3s infinite; /* 3s est la durée totale d'une vague complète, ajustez selon vos préférences */
 }
+
+@keyframes moveLeft {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-5px); }
+}
+
+@keyframes moveRight {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+
+.leftHand, .rightHand {
+  display: inline-block;
+}
+
+.leftHand {
+  animation: moveLeft 3s infinite; /* ajustez la durée selon vos préférences */
+}
+
+.rightHand {
+  animation: moveRight 3s infinite; /* ajustez la durée selon vos préférences */
+}
+
 
 
 
