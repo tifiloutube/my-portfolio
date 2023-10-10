@@ -44,7 +44,7 @@ onMounted(() => {
       <div class="description">
         <section>
           <p>Frontend Developer</p>
-          <p class="text letToRightAnim">Blending creativity with functionality, I craft robust web interfaces with a splash of artistry. My passion lies in elevating the aesthetic appeal of digital platforms, while maintaining a strong focus on usability. Currently honing my skills at Ynov Toulouse in web development, I thrive on the frontier of creative front-end development. My educational journey has been an arena to experiment, learn, and collaborate, fueling my enthusiasm to take on intricate web projects. With every line of code, I strive to push the envelope, aspiring to collaborate with innovative teams and clients to bring unique digital experiences to life.</p>
+          <p class="text letToRightAnim">Blending <span class="emoji">👋</span> creativity with functionality, I craft robust web interfaces with a splash of artistry. My passion lies in elevating the aesthetic appeal of digital platforms, while maintaining a strong focus on usability. Currently honing my skills at Ynov Toulouse in web development, I thrive on the frontier of creative front-end development. My educational journey has been an arena to experiment, learn, and collaborate, fueling my enthusiasm to take on intricate web projects. With every line of code, I strive to push the envelope, aspiring to collaborate with innovative teams and clients to bring unique digital experiences to life.</p>
         </section>
         <article>
           <ul class="listInterest">
@@ -108,6 +108,18 @@ onMounted(() => {
     }
   }
 }
+
+@keyframes waveAnimation {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(-30deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.emoji {
+  display: inline-block;
+  animation: waveAnimation 3s infinite; /* 3s est la durée totale d'une vague complète, ajustez selon vos préférences */
+}
+
 
 
 /* Responsive Tablette */
