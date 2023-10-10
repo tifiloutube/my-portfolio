@@ -34,7 +34,7 @@ onMounted(() => {
     projects = Array.from(document.querySelectorAll('.project'));
     updateProjects();
 
-    if (window.innerWidth >= 1024) {  // Ajout de cette condition
+    if (window.innerWidth >= 1024) {
       for (let i = 0; i < projects.length; i++) {
         const project = projects[i];
         const nextProject = projects[i + 1];
