@@ -35,7 +35,7 @@ export default {
         <p>info</p>
       </div>
       <div>
-        Hey! I'm Philippe, but you probably guessed that, the developer behind this portfolio, I'm 25, and I aspire to be a creative web developer, you can click on the following button to learn more about me!
+        Hey! I'm Philippe, the developer behind this portfolio, but you probably guessed that, I'm 25, and I aspire to be a creative web developer, you can click on the following button to learn more about me!
       </div>
       <button class="custom-button" type="button">
         <NuxtLink to="/aboutme">
