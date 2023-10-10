@@ -45,7 +45,7 @@ onMounted(() => {
         <section>
           <p>Frontend Developer</p>
           <p class="text letToRightAnim">
-            Hey everyone! <span class="emoji">👋</span> It's a me, Mari... Uh no, wrong line. Hmm Hmm I am VILARINHO Philippe, a web developer with a passion for creative web development. Currently a student at Ynov Toulouse Campus, I am in search of an apprenticeship to enrich my master's journey. The endless possibilities of the web inspire me to push the boundaries and bring a creative touch to every project I work on.
+            Hey everyone! <span class="emoji">👋</span> It's-a me, Mari... Uh no, wrong line. Hmm Hmm I am VILARINHO Philippe, a web developer with a passion for creative web development. Currently a student at Ynov Toulouse Campus, I am in search of an apprenticeship to enrich my master's journey. The endless possibilities of the web inspire me to push the boundaries and bring a creative touch to every project I work on.
             I am among those who believe that good energy and a relaxed atmosphere are essential for successful collaboration and continuous learning. I am always ready to learn, experiment, and share ideas with like-minded individuals.
             Thank you so much for reading! If you are curious to see what I have concocted so far, don't hesitate to click right here to browse through my projects. Looking forward to connecting and creating together!
           </p>
