@@ -98,7 +98,7 @@ a:hover, a:focus {
         font-size: 80px;
     }
     .text {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -116,6 +116,6 @@ a:hover, a:focus {
     }
     .text {
         margin: 0;
-        font-size: 16px;
+        font-size: 14px;
     }
 }
