@@ -35,12 +35,12 @@ export default {
         <p>info</p>
       </div>
       <div>
-        Currently pursuing my web development studies at Ynov Toulouse, I am eagerly seeking a web development apprenticeship to further meld creativity with technical prowess in real-world projects.
+        Hey! I'm Philippe, but you probably guessed that, the developer behind this portfolio, I'm 25, and I aspire to be a creative web developer, you can click on the following button to learn more about me!
       </div>
       <button class="custom-button" type="button">
         <NuxtLink to="/aboutme">
         explore
-        <span>
+        <span class="arrow">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path d="M12.0249 4.94168L17.0832 10L12.0249 15.0583" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M2.9165 10L16.9415 10" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -112,6 +112,16 @@ export default {
       display: flex;
       gap: 10px;
     }
+  }
+
+  @keyframes arrowAnimation {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(5px); }
+  }
+
+  .arrow {
+    display: inline-block;
+    animation: arrowAnimation 3s infinite;
   }
 
   @media screen and (max-width: 600px) {
