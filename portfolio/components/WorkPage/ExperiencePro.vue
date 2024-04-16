@@ -112,6 +112,45 @@ onMounted(() => {
       <div class="project">
         <div class="container-title">
           <h1 class="h2 project-title">
+            OnePiece MiniGames
+          </h1>
+          <a href="https://github.com/tifiloutube/React-OnePiece" target="_blank" class="project-git">
+            See Project
+          </a>
+        </div>
+        <div class="project-description">
+          <p>
+            Site with onePiece mini-games as well as a wiki for a school project
+          </p>
+        </div>
+        <div class="project-collaborateurs">
+          <div>
+            <h2>
+              W / YNOV
+            </h2>
+          </div>
+          <div>
+            <h2>
+              Stacks /
+            </h2>
+            <div>
+              <ul>
+                <li>
+                  React
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h2>
+              Role / Developer
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="container-title">
+          <h1 class="h2 project-title">
             Happy Birthday Mailer
           </h1>
           <NuxtLink class="project-git private">
