@@ -120,7 +120,7 @@ onMounted(() => {
         </div>
         <div class="project-description">
           <p>
-            Site with onePiece mini-games as well as a wiki for a school project
+            Site with onePiece mini-games and a wiki for a school project
           </p>
         </div>
         <div class="project-collaborateurs">
