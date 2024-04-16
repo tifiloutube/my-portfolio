@@ -70,6 +70,48 @@ onMounted(() => {
       <div class="project">
         <div class="container-title">
           <h1 class="h2 project-title">
+            TitoMojito
+          </h1>
+          <a href="https://tito-mojito.vercel.app" target="_blank" class="project-git">
+            See Project
+          </a>
+        </div>
+        <div class="project-description">
+          <p>
+            Showcase site developed in Nuxt3/GSAP and Wordpress (site in pre-production)
+          </p>
+        </div>
+        <div class="project-collaborateurs">
+          <div>
+            <h2>
+              W /
+            </h2>
+          </div>
+          <div>
+            <h2>
+              Stacks /
+            </h2>
+            <div>
+              <ul>
+                <li>
+                  Nuxt3/GSAP
+                </li>
+                <li>
+                  WordPress Headless
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h2>
+              Role / Developer & UI/UX Design
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="container-title">
+          <h1 class="h2 project-title">
             Happy Birthday Mailer
           </h1>
           <NuxtLink class="project-git private">
